@@ -206,35 +206,6 @@
 //     }
 //     console.log(i)
 // }
-                    // task1
-// var inputNumber = +prompt("Please type your favorite number i will tell you whether it is prime or not");
-// var isPrime = true;
-// for (var i=2;i<inputNumber;i++){
-//     if (inputNumber%i==0) {
-// console.log("YOUR NUMBER "+inputNumber+"Is not a prime number" + "divisible by ="+ i);
-// isPrime = false;
-// break;
-//     }
-// }
-// if (isPrime){
-//     console.log("Your number is prime = " + inputNumber  )
-// }    
-
-///boht baaaaaaaaaaaap
-var rows=5;
-for(var i=1;i<=rows;i++){
-    for(var k=1;k<=(rows-i);k++)
-    {
-        document.write("&nbsp;")
-    }
-    for(var j=1;j<=i;j++){
-        document.write("*")
-        
-    }
-    document.write("</br>");
-
-}
-
 
 
 
