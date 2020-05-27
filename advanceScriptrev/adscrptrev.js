@@ -79,12 +79,15 @@ console.log('zaid "ahmed"');
 
 
 
+        //arrow function
 
-var add = (a,b) =>{
-    a + b;
-    }
-function sayHi(){
-console.log('hey');
-console.log(add(1,2));
-}
-sayHi();
+// var add = (a,b) =>{
+//     return a + b;
+//     }
+
+
+// function sayHi(){
+// console.log('hey');
+// console.log(add(1,2));}
+
+// sayHi();

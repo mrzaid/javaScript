@@ -1,22 +1,3 @@
-// var user = {
-//     name:"daniyal",
-//     age:"20",
-//     country:"pakistan",
-//     city:"karachi"
-// }
-// console.log(user);
-// console.log(`my name is : ${user.name}`);
-// console.log(`my age is : ${user.age}`);
-
-
-
-
-
-
-
-
-
-
 //object is a refference data type
 var name1 = "zaid";
 var name2 = "ahmed";
@@ -39,20 +20,11 @@ console.log(obj1.age);
 console.log(obj2.age);
 obj2 = obj1   //passed by reference
 console.log("obj2 value after passing the reference",obj2.age);
-obj2.age = 30;
+obj2.age = Object.assign( {} ,obj1.age) ;
+//obj2.age = { ...obj1, }
 console.log("obj2 value after changing",obj2.age);
 
 console.log("obj1 value after changing obj2 value",obj1.age);
 //its value also changes because it was passed by reference
-
-
-
-
-
-
-
-
-
-
 
 
