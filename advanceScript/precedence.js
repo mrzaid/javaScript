@@ -19,3 +19,7 @@ function double(num) {
 }
 
 console.log(typeof double); // Output: function
+
+
+
+//this is very useful
