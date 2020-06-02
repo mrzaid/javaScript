@@ -108,8 +108,10 @@
 // console.log(maalik)
 
 
-        //des
-
+        //desstructuring
+const address = {
+    
+}
 
 
 
